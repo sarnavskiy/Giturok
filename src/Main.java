@@ -38,9 +38,9 @@ public class Main {
         }
 
 
-        for (int i = 0; i < multiDimensionalArray.length; i++) {
-            for (int j = 0; j < multiDimensionalArray[i].length; j++) {
-                System.out.println("Значения в массивах после увеличения: " + Arrays.toString(multiDimensionalArray[i][j]));
+        for (int[][] ints : multiDimensionalArray) {
+            for (int j = 0; j < ints.length; j++) {
+                System.out.println("Значения в массивах после увеличения: " + Arrays.toString(ints[j]));
             }
             System.out.println();
         }
