@@ -12,7 +12,7 @@ public class Main {
         for (int i = 0; i < multiDimensionalArray.length; i++) {
             for (int j = 0; j < multiDimensionalArray[i].length; j++) {
                 for (int k = 0; k < multiDimensionalArray[i][j].length; k++) {
-                    int num = random.nextInt(-150, 150);
+                    int num = random.nextInt(-10, 10);
                     multiDimensionalArray[i][j][k] = num;
                 }
             }
